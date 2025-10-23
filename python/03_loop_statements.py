@@ -1,6 +1,5 @@
 
 
-
 #verifying if a sentence contains a specific string, 
 #then adding each of them in a dict with its count
 
@@ -18,3 +17,5 @@ for word in sentence_words:
     else:
         words_count[word] = 1
 print(words_count)
+
+#if you need to validate a var type you can use 'isinstance' 
